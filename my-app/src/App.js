@@ -1,9 +1,10 @@
-import "./App.css";
+import React from "react";
 
+import HomePage from "./pages/HomePage";
 function App() {
   return (
-    <div className="App">
-      <h1 className="fs-2 text-black">My app</h1>
+    <div>
+      <HomePage />
     </div>
   );
 }
